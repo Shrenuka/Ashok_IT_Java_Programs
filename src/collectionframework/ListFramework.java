@@ -34,6 +34,7 @@ public class ListFramework {
 		{
 			System.out.println(value);
 		}
+		
 		System.out.println("*********************************");
 		
 		System.out.println("Does list contain '100': "+list.contains(100));
