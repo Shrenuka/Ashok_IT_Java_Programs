@@ -15,13 +15,12 @@ public class ArrayList_String {
 		System.out.println(renu);
 		
 		ArrayList<String> str = new ArrayList();
-		str.add("Wankhede");
-		//str.add(123); //error msg as 123 is not string datatype
-		
-		str.add(1,"Renuka");
-		str.add(2,"Engineer");
-		//str.add(0,"Shiv");
+		str.add("String");
+		str.add(1,"Manager");
+		str.add(2,"Engineer");		
 		str.add(3,"QA");
+		
+		str.add(0,"Developer"); //This will pushing values
 		
 		System.out.println(str);
 		

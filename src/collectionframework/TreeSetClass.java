@@ -1,32 +1,37 @@
 package collectionframework;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Set;
+import java.util.TreeSet;
 
-public class SetInterface {
+public class TreeSetClass {
 
 	public static void main(String[] args) {
 		
-		Set set = new HashSet<>();
+		//This removes duplicates and sorts the values, but allows only one type of data
 		
-		set.add("apple");
-		set.add("apple123");		
+		Set set = new TreeSet<>();
+		
+		//set.add("Test");
+		//set.add("123Test");
+		set.add(8);
+		set.add(2);
 		set.add(4);		
 		set.add(3);
 		set.add(5);			
 		set.add(9);
 		set.add(0);
-		set.add("123apple");
+		set.add(6);		
 		set.add(1);
-		set.add("Test"); 
+		set.add(7); 
 		set.add(2);
 		set.add(7);
-		set.remove(1);
 		set.add(6);
 		set.add(10);
-		set.remove(new String ("apple"));
+		set.add(8);
 		
 		System.out.println(set);
 		
@@ -39,7 +44,7 @@ public class SetInterface {
 		
 		System.out.println("*********************");
 		
-		ArrayList a1 = new ArrayList();
+		List a1 = new ArrayList();
 		a1.addAll(set);
 		
 		for(int i=0; i<a1.size(); i++)
@@ -54,8 +59,7 @@ public class SetInterface {
 		while(setitr.hasNext())
 		{
 			System.out.println(setitr.next());
-		}		
-		
+		}
 	}
 
 }

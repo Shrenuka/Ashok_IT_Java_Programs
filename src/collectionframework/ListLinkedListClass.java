@@ -51,7 +51,8 @@ public class ListLinkedListClass {
 		System.out.println("************************");
 		
 		linkedlist1.addAll(linkedlist);
-		linkedlist1.offer(34);
+		linkedlist1.offerFirst(34);
+		linkedlist1.offerLast(43);
 		
 		for(Object obj : linkedlist1)
 		{
@@ -66,6 +67,7 @@ public class ListLinkedListClass {
 			System.out.println(obj);
 		}
 		
+		System.out.println(linkedlist1);
 		/*
 		Iterator list1 = linkedlist1.iterator();		
 		while(list1.hasNext())
