@@ -42,6 +42,7 @@ public class ListFramework {
 		System.out.println("Removed 'practice': "+list.remove(new String ("practice")));
 		
 		System.out.println("*********************************");
+		
 		List list1 = new ArrayList<>();
 		list1.add(10);
 		list1.add(20);
