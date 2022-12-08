@@ -1,0 +1,4 @@
+This is data Written using buffered writer class
+This text is appended
+This is the new line text appended
+This is the new line text appended
