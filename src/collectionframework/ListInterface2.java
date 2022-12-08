@@ -3,7 +3,7 @@ package collectionframework;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListFramework {
+public class ListInterface2 {
 
 	public static void main(String[] args) {
 
@@ -22,12 +22,12 @@ public class ListFramework {
 		list.add("Test");
 		list.add(1);
 		
-		/*first method
+		//first method
 		for(int i=0; i<list.size(); i++)
 		{
 			System.out.println(list.get(i));;
 		}
-		System.out.println("***************************"); */
+		System.out.println("***************************"); 
 		
 		//second method
 		for(Object value:list)
